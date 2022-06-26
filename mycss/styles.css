@@ -1,0 +1,50 @@
+body {background-color:#E8DDCA;}
+/*text elements*/
+/*headings*/
+h1,h2,h3,h4,h5 {font-weight:bold;color:#000;}
+h1{font-size:24px;padding-bottom:15px;border-bottom:1px #ccc solid;margin-bottom:15px;color:#BB5E00;}
+h2{font-size:20px}
+h3{font-size:16px margin-bottom:5px;}
+h4{font-size:14px}
+h5{font-size:14px}
+
+p {color:#000;font-size:12px;line-height:150%;margin-bottom:15px 0;}
+
+/*images*/
+.image-frame {padding:5px;border:1px #ccc solid; margin:5px;}
+
+
+/*containers*/
+#outer   {width:960px; margin:0 auto;background-color:#fff; }
+#wrapper { width:900px; margin:0 auto;background-color:#fff; }
+#logo {margin:20px 0px; float:left; }
+#heading{clear:both; color:#F03}
+
+
+#social-media-icons {float:right; }
+#social-media-icons ul li {display:inline; }
+#social-media-icons ul {margin-top:20px; }
+#topnav         {clear:both;}
+#topnav ul      {border-top:1px #000 solid; border-bottom:1px #000 solid;margin 20px 0; padding:10px 0;}
+#topnav ul li   {display:inline;}
+#topnav ul li a {padding:0 15px;}
+#topnav a:link     {color:#000;}
+#topnav a: visited {color:#000;}
+#topnav a: active  {color:#000;}
+#topnav a: focus   {color:#666;}
+#topnav a: hover   {color:#F90;}
+
+#banner   {margin-bottom:20px; }
+#slider   {margin-bottom:20px;}
+#content  { width:650px; float:left; }
+#content-fullwidth {width:100%;}
+#right    {width :200px; float:right;}
+#footer   {clear:both;margin:20px 0;border-top:1px #ccc solid; padding-bottom:20px; }
+
+/*miscellaneous*/
+.date {font-weight:bold;color:#BF600;}
+.copyright-text { font-size:80%;font-style:italic;color:#333;}
+.footer-text    {font-size:12px;font-style:normal;color:#000; text-align:center;}
+.name {text-align:center;}
+
+

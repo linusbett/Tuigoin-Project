@@ -1,0 +1,137 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script type="text/javascript" src="../myjs/jquery.js"></script>
+    <script type="text/javascript" src="../myjs/slider.js"></script>
+	
+	
+
+	<script type="text/javascript">  // This is the script for the banner slider
+		$(document).ready(function() {
+			$('#slider').s3Slider({
+				timeOut: 6000
+			});
+		});
+	</script>
+
+<link href="../mycss/styles.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="../mycss/slider.css" rel="stylesheet" type="text/css" media="screen">
+	
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id ="outer">
+<div id ="wrapper">
+ <div id ="logo">
+<img src="../images/logo/logo.png" height="70" width="150">
+</div>
+
+
+<div id="social-media-icons">
+<ul>
+<li><a href="http://www.facebook.com" target="_blank"><img src="../images/icons/facebook.jpg" height="30" width="30"></a></li></br>
+<li><a href="http://www.youtube.com" target="_blank"><img src="../images/icons/youtube.png" height="30" width="30"></a></li></br>
+<li><a href="http://www.twitter.com" target="_blank"><img src="../images/icons/twitter.png" height="30" width="30"></a></li></br>
+<li><a href="http://www.linkedin.com" target="_blank"><img src="../images/icons/linkedin.png" height="30" width="30"></a></li></br>
+</ul>
+</div>
+
+<div id="heading">
+ <h1 class="name"> A.I.C TUIGOIN SECONDARY SCHOOL <h1>
+</div>
+
+<div id="topnav">
+<ul>
+<li><a href="../index.html">HOME</a></li>
+<li><a href="../myhtml/about.html">ABOUT</a></li>
+<li><a href="../myhtml/education.html">EDUCATION</a></li>
+<li><a href="../myhtml/contacts.html">CONTACTS</a></li>
+<li><a href="../myhtml/downloads.html">DOWNLOADS</a></li>
+</ul>
+</div>
+
+        <div id="slider">
+
+		<ul id="sliderContent">
+		
+		<!-- use this list item if you want to include a link -->				
+			<li class="sliderImage">
+				<a href=""><img src="../images/banner/banner.jpg" /></a>
+				<span class="top"><strong>Tuigoin Students photo</strong>
+                <br />This is the school official website.
+                <br />welcome to Tuigoin Secondary. 
+                <br />All the school details are here.
+                <br />Arise And Shine
+                <br />we value profesionalism, hardwork,commitment and integrity. 
+                <br />centre of academic excellence. 
+                </span>
+			</li>
+			
+		<!-- use this list item if you don NOT want to include a link -->				
+			<li class="sliderImage">
+				<img src="../images/banner/banner1.jpg" />
+               <span class="top"><strong>Tuigoin School photo</strong>
+                <br />This is the school official website.
+                <br />welcome to Tuigoin Secondary. 
+                <br />All the school details are here.
+                <br />Arise And Shine
+                <br />we value profesionalism, hardwork,commitment and integrity. 
+                <br />centre of academic excellence. 
+			</li>
+            			<li class="sliderImage">
+				<img src="../images/banner/banner0.jpg" />
+                 <span class="top"><strong>Tuigoin Students Photo</strong>
+                <br />This is the school official website.
+                <br />welcome to Tuigoin Secondary. 
+                <br />All the school details are here.
+                <br />Arise And Shine
+                <br />we value profesionalism, hardwork,commitment and integrity. 
+                <br />centre of academic excellence. 
+                
+			</li>
+
+			<div class="clear sliderImage"></div>
+		</ul>
+	
+	</div>
+
+<div id="content">
+
+<!-- TemplateBeginEditable name="content" --><h1>WELCOME TO TUIGOIN SECONDARY WEBSITE</h1>
+
+  <img class="image-frame" src="../images/content/content0.jpg" height="100" width="300" /><img class="image-frame" src="../images/content/content2.jpg" height="100" width="300" />
+<!-- TemplateEndEditable --></div>
+
+<div id="right">
+<h2>
+<strong>Latest News</strong>
+<h2><br>
+<p class="date">20th sept 2019<p>The end term exams will start on date 14th to 18th October 2019
+<h3>Sample headlines</h3>
+<h2> 
+<strong>News
+<h2>
+<br>
+19th sept 2019
+<p>All parents are reminded that the school will be closed on date 25th October 2019</p>
+<h3>Another headlines</h3>
+
+</div>
+
+
+<div id="footer">
+<p class="footer-text">copyright &#169; 2019:Tuigoin Secondary School : All rights reserved<p>
+
+</div>
+
+</div>
+</div>
+</body>
+</html>
